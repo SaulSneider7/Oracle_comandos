@@ -30,3 +30,6 @@ INNER JOIN libros l ON p.idlibro = l.idlibro
 inner join usuarios us ON p.idusuario = us.idusuario;
 
 SELECT * FROM autores;
+
+-- DAR PERMISON A NUESTRO USUARIO DESDE EL USUARIO ADMIN
+GRANT CREATE VIEW TO USER_SENATI;
